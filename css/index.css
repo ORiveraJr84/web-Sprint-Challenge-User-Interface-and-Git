@@ -146,6 +146,7 @@ header > a > img {
 
 .middle-content > .boxes > div.box:nth-of-type(4) {
     background-color: coral;
+    order: -1;
 }
 
 .middle-content > .boxes > div.box:nth-of-type(5) {

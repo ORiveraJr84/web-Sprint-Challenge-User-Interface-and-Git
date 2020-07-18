@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML is a method of using HTML elements that are more descriptive. Sure you can use <div>'s everywhere but using a <section>, for example, better describes to both yourself and others that may be reviewing your code what the content might be. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    When something displays inline it does not disrupt the flow of text. It also means that the browser typically ignores width properties on that element. Whereas an element that displays as a block breaks the flow of text and takes up the full width of the next line.
 
 3. What are the 4 areas of the box model?
 
+    4 areas of the box model are : content, border, margin, and padding.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    Align-items: center alters the way the items flow along the cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+    Git is an important tool and resource for developers because it allows the user to access a "time machine" for their code. It saves various iterations of their project that if needed can be reverted back to. It is also super useful in a team setting where members can work on different sections before incorporating them into the final version.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -104,4 +114,4 @@ After finishing your required elements, you can push your work further. These go
 
 * [✓] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
 * [✓] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
-* [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
+* [✓] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
