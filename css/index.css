@@ -76,8 +76,14 @@ header {
     padding: 20px 0px 40px 0px;
 }
 
-header > img {
-    width: 150px;
+header > a {
+    width: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+
+header > a > img {
+    width: 100%;
 }
 
 #topNav {
@@ -98,6 +104,10 @@ header > img {
     border-bottom: 1px dotted black;
 }
 
+#aboutContainer > p {
+    font-size: .8rem;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -113,21 +123,83 @@ header > img {
     padding-bottom: 20px;  
 }
 
+.text-container > p {
+    font-size: .8rem;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
+.middle-content > .boxes > div.box:first-of-type {
+    background-color: teal;
+}
+
+.middle-content > .boxes > div.box:nth-of-type(2) {
+    background-color: gold;
+}
+
+.middle-content > .boxes > div.box:nth-of-type(3) {
+    background-color: cadetblue;
+}
+
+.middle-content > .boxes > div.box:nth-of-type(4) {
+    background-color: coral;
+}
+
+.middle-content > .boxes > div.box:nth-of-type(5) {
+    background-color: crimson;
+}
+
+.middle-content > .boxes > div.box:nth-of-type(6) {
+    background-color: forestgreen;
+}
+
+.middle-content > .boxes > div.box:nth-of-type(7) {
+    background-color: darkorchid;
+}
+
+.middle-content > .boxes > div.box:nth-of-type(8) {
+    background-color: hotpink;
+}
+
+.middle-content > .boxes > div.box:nth-of-type(9) {
+    background-color: indigo;
+}
+
+.middle-content > .boxes > div.box:last-of-type {
+    background-color: dodgerblue;
+}
+
 #cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .card {
-    width: 30%;
-    margin: 10px;
+    width: 46%;
+    margin: 2%;
     border-bottom: 1px dotted black;
+}
+
+.card > img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.card > p {
+    font-size: .8rem;
+}
+
+.card > button {
+    background-color: white;
+    border-radius: 10px;
+    padding: 8px 20px;
+    margin: 15px 0px;
+    font-size: .75rem;
 }
 
 .middle-content h2 {
@@ -164,6 +236,15 @@ header > img {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+#doubleCard {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#doubleCard > p {
+    font-size: .8rem;
 }
 
 footer {
